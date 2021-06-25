@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Вкус House</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header" id="header">
+        <div class="header__burger" id="burgerToggle">
+          <span></span>
+        </div>
+        <div class="burger__menu" id="burgerToggle1">
+          <div class="header__inner">
+            <div class="header__right">
+              <nav class="nav">
+                <a class="nav__link" href="#" data-scroll="#about">О нас</a>
+                <a class="nav__link" href="http://127.0.0.1:5500/Numbers.html#">Номера</a>
+                <a class="nav__link" href="#" data-scroll="#galery">Галерея</a>
+                <a class="nav__link" href="#" data-scroll="#avatar">Разработчик</a>
+                <a class="nav__link" href="#" data-scroll="#menu">Меню</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <div class="intro" id="intro">
+      <div class="span"></div>
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__title">Вкус House</div>
+          <div class="info"></div>
+        </div>
+      </div>
+    </div>
+    <!--About-->
+    <div class="img" id="about">
+      <div class="wrapper">
+        <div class="about__header">
+          <div class="about__suptitle">О нас</div>
+        </div>
+        <div class="about">
+          <div class="about__inner">
+            <img class="image" src="/photo/photo.jpg" alt="photo">
+          </div>
+          <div class="about__inner">
+            <div class="about__text">Здравствуйте друзья! Наше заведение открылось с 23 октября 2020 года. Вы можете уже
+              посетить нашу Гостиницу, где вы сможете хорошо отдохнуть. Будем рады вас увидеть!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/About-->
+    <!--Galery-->
+    <div class="galery" id="galery">
+      <div class="container">
+        <div class="slider__title">Галерея
+          <div class="slider__text">В данной галерее вы сможете просмотреть фотографии нашей Гостиницы.</div>
+        </div>
+      </div>
+      <div id="slider">
+        <div class="img_foto">
+          <img class="img_item" src="/photo/kit4.jpg" alt="Фото">
+          <img class="img_item" src="/photo/rest.jpg" alt="Фото">
+          <img class="img_item" src="/photo/intro.jpg" alt="Фото">
+          <img class="img_item" src="/photo/kor.jpg" alt="Фото">
+          <img class="img_item" src="/photo/balk.jpg" alt="Фото">
+        </div>
+        <div class="click_button">
+          <div id="left_button">&lt;</div>
+          <div id="rigth_button">&gt;</div>
+        </div>
+        <div id="button_three">
+          <button class="button_item new_class"></button>
+          <button class="button_item"></button>
+          <button class="button_item"></button>
+          <button class="button_item"></button>
+          <button class="button_item"></button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--/Galery-->
+    <!--Section,avatar-->
+    <section class="section" id="avatar">
+      <div class="container">
+        <div class="section__header">
+          <div class="section__suptitle">Разработчик</div>
+        </div>
+        <div class="avatar">
+          <div class="avatar__inner">
+            <div class="avatar__img">
+              <img src="photo/avatar.jpg" alt="avatar">
+            </div>
+            <div class="avatar__info">
+              <div class="avatar__name">Проворная Анастасия</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/Section,about-->
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="list_c">
+          <div class="menu__inner">
+            <div class="menu__img">
+              <div class="menu__info">
+                <ol class="ol">
+                  <li class="list">Утиная грудка с жженой капустой</li>
+                  <li class="list">Равиолони с лососем</li>
+                  <li class="list">Куриные рулеты по-римски</li>
+                  <li class="list">Ризотто с тартаром</li>
+                  <li class="list">Ассорти из летних овощей</li>
+                  <li class="list">Филе дорадо</li>
+                  <li class="list">Мясные шарики</li>
+                  <li class="list">Жареная кефаль</li>
+                  <li class="list">Антрекорт из свинины</li>
+                  <li class="list">Филе индейки с кунжутом</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__iner">
+          <div class="footer__block">
+            <h4 class="footer__title">Location</h4>
+            <address сlass="footer__address">
+              <div class="footer__address">Бейкер-стрит</div>
+              <div class="footer__address">Дом 7</div>
+            </address>
+          </div>
+          <div class="footer__block">
+            <h4 class="footer__title">Work schedule</h4>
+            <div class="footer__text">пн-пт 8:30-23:00, перерыв 12:00-13:00, сб-вс: 10:00-22:00</div>
+          </div>
+          <div class="footer__block">
+            <h4 class="footer__title">About Вкус House</h4>
+            <div class="footer__text">Данный проект был разработан в учебных целях.</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/Footer-->
+  </main>
+  <script src="app.js"></script>
+  <script src="scroll.js"></script>
+  <script src="burger.js"></script>
+</body>
+
+</html>
